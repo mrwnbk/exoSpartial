@@ -11851,6 +11851,12 @@ textarea.form-control-lg {
 
 body {
   margin: 0;
+  background-image: url(/public/images/banner.jpg);
+  background-size: cover;
+}
+
+.navBar a {
+  color: #a39c9b;
 }
 
 /*# sourceMappingURL=app.css.map */
