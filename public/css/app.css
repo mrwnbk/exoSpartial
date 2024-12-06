@@ -11859,8 +11859,11 @@ body {
   color: #a39c9b;
 }
 
-section {
-  margin-top: 100px;
+section h1, section .h1 {
+  margin-top: 75px;
+}
+section div:nth-of-type(2) {
+  margin-top: 25px;
 }
 section div:nth-of-type(3) {
   margin-top: -15px;
@@ -11873,6 +11876,7 @@ section p {
   width: 100%;
   height: 350px;
   background-color: white;
+  margin-top: 255px;
 }
 .section2 p {
   font-size: 13px;
@@ -11880,6 +11884,12 @@ section p {
 
 #parTitre {
   font-size: 17px;
+}
+
+.section3 {
+  width: 100%;
+  height: 600px;
+  background-color: #f6f6f6;
 }
 
 /*# sourceMappingURL=app.css.map */
