@@ -11859,4 +11859,14 @@ body {
   color: #a39c9b;
 }
 
+section {
+  margin-top: 100px;
+}
+section div:nth-of-type(3) {
+  margin-top: -15px;
+}
+section p {
+  color: #a39c9b;
+}
+
 /*# sourceMappingURL=app.css.map */
