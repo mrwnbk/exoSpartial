@@ -11888,8 +11888,25 @@ section p {
 
 .section3 {
   width: 100%;
-  height: 600px;
+  height: 725px;
   background-color: #f6f6f6;
+}
+.section3 img {
+  width: 500px;
+}
+
+.titreSection3 {
+  text-align: center;
+}
+
+.img1Section3 {
+  margin-top: 25px;
+}
+
+.caseImg {
+  width: 500px;
+  height: 60px;
+  background-color: white;
 }
 
 /*# sourceMappingURL=app.css.map */
