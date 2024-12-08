@@ -11853,15 +11853,20 @@ body {
   margin: 0;
 }
 
-nav {
+.imgNavBar {
   background-image: url("../images/banner.jpg"), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
   width: 100%;
   height: 600px;
   padding-top: 0%;
   background-blend-mode: overlay;
 }
-nav a {
+
+.navBar a {
   color: #a39c9b;
+}
+
+.linkSpartial {
+  margin-top: 30px;
 }
 
 section h1, section .h1 {
