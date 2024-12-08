@@ -11851,11 +11851,16 @@ textarea.form-control-lg {
 
 body {
   margin: 0;
-  background-image: url(/public/images/banner.jpg);
-  background-size: cover;
 }
 
-.navBar a {
+nav {
+  background-image: url("../images/banner.jpg"), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  width: 100%;
+  height: 600px;
+  padding-top: 0%;
+  background-blend-mode: overlay;
+}
+nav a {
   color: #a39c9b;
 }
 
@@ -11874,12 +11879,15 @@ section p {
 
 .section2 {
   width: 100%;
-  height: 350px;
+  height: 300px;
   background-color: white;
-  margin-top: 255px;
 }
 .section2 p {
   font-size: 13px;
+}
+
+.titreSection2 {
+  margin-top: -40px;
 }
 
 #parTitre {
@@ -11906,6 +11914,12 @@ section p {
 .caseImg {
   width: 450px;
   height: 60px;
+  background-color: white;
+}
+
+.section4 {
+  width: 100%;
+  height: 725px;
   background-color: white;
 }
 
